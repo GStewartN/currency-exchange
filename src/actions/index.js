@@ -1,5 +1,4 @@
 import * as types from './../constants/ActionTypes';
-import v4 from 'uuid/v4';
 import fetch from 'isomorphic-fetch';
 
 export const requestComparison = (firstCurrency, secondCurrency) => ({
@@ -30,7 +29,6 @@ export function getComparison(firstCurrency, secondCurrency, dispatch) {
           }
         }
         dispatch(receiveComparison(firstCurrency, secondCurrency, rates));
-        console.log("dispatch sent!");
         return rates;
       } else {
         console.log("We couldn't find the conversion")

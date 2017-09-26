@@ -22,7 +22,6 @@ const getComparisonReducer = (state = {}, action) => {
         firstRate: action.rates[0],
         secondRate: action.rates[1]
       })
-      console.log(newState)
       return newState;
     default:
       return state;
