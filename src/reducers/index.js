@@ -19,8 +19,8 @@ const getComparisonReducer = (state = {}, action) => {
         isFetching: false,
         firstCurrency: action.firstCurrency,
         secondCurrency: action.secondCurrency,
-        firstRate: "$" + action.rates[0],
-        secondRate: "$" + action.rates[1]
+        firstRate: action.rates[0],
+        secondRate: action.rates[1]
       })
       console.log(newState)
       return newState;
