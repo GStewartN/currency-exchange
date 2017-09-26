@@ -10,7 +10,6 @@
   "author": "Nathan Stewart and Max Scher",
   "license": "ISC",
   "dependencies": {
-    "base-64": "^0.1.0",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
