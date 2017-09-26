@@ -1,1 +1,2 @@
-
+export const COMPARE_TWO = 'COMPARE_TWO';
+export const RECEIVE_COMPARISON = 'RECEIVE_COMPARISON';
